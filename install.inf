@@ -1,0 +1,18 @@
+[info]
+title=Ini Sort
+desc=For ini file, sorts all sections, and sorts all keys inside sections
+type=cudatext-plugin
+subdir=cuda_ini_sort
+homepage=https://github.com/CudaText-addons/cuda_ini_sort
+
+[item1]
+section=commands
+caption=Ini Sort\Sort sections, sort keys
+method=sort_all
+lexers=Ini files
+
+[item2]
+section=commands
+caption=Ini Sort\Sort sections, don't sort keys
+method=sort_not_keys
+lexers=Ini files
